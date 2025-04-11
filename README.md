@@ -180,6 +180,5 @@ Model's prediction on each track will be classified by word error rate on the tr
 Along with wer, some other figures are calculated to evaluate to model, including count of PURE, FAR, and LOST, and accept rate.
 
 Accept rate is calculated as:
-$$
-acc=\frac{Count_{PURE}+Count_{FAR}\times0.5}{Count_{PURE}+Count_{FAR}+Count_{LOST}} \nonumber
-$$
+
+![acc](https://s2.loli.net/2025/04/11/aMDLviCj8gPnToQ.png)
