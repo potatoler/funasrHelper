@@ -173,9 +173,9 @@ Model's prediction on each track will be classified by word error rate on the tr
 
 | Class | wer             | Description                                          |
 | ----- | --------------- | ---------------------------------------------------- |
-| PURE  | $<10 \%$        | Pure prediction which is close to the original text. |
-| FAR   | $>10\%\ ,<30\%$ | A prediciton far from the original text.             |
-| LOST  | $>30\%$         | Bad prediction which loses original information.     |
+| PURE  | < 10%        | Pure prediction which is close to the original text. |
+| FAR   | > 10%, < 30% | A prediciton far from the original text.             |
+| LOST  | > 30%         | Bad prediction which loses original information.     |
 
 Along with wer, some other figures are calculated to evaluate to model, including count of PURE, FAR, and LOST, and accept rate.
 
